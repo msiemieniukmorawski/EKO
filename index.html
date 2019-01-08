@@ -1,0 +1,133 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <link rel="stylesheet" href="style/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <header class="top">
+        <div class="container">
+            <div class="top__icon">
+                <div class="top___icon___item top___icon___item__square">
+                    <svg>
+                        <use xlink:href="#square"></use>
+                    </svg>
+                </div>
+                <div class="top___icon___item top___icon___item__wheel">
+                    <svg>
+                        <use xlink:href="#wheel"></use>
+                    </svg>
+                </div>
+                <div class="top___icon___item top___icon___item__triangle">
+                    <svg>
+                        <use xlink:href="#triangle"></use>
+                    </svg>
+                </div>
+            </div>
+            <div class="top__nav">
+                <div class="top__nav__logo">
+                    <a href="#" class="top__nav__logo__link">
+                        <img src="assets/logo.png" alt="EkoFachowcy">
+                    </a>
+                </div>
+                <div class="top__nav__tel">
+                    <a href="tel:+48222345678" class="top__nav__tel__link">
+                        <svg>
+                            <use xlink:href="#tel"></use>
+                        </svg>
+                    22 234 56 78
+                    </a>
+                </div>
+                <div class="top__nav__info">
+                    <a href="#" class="top__nav__info__link">
+                        <svg>
+                            <use xlink:href="#information"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="top__progres">
+                <p class="top__progres__text"><strong>Krok 1:</strong> Potrzebujesz instalacji dla</p>
+                <div class="top__progres__line"></div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <section class="claim">
+                <h1 class="headline">Potrzebuję instalacji dla</h1>
+                <h2 class="subheadline">Możesz zaznaczyć obie opcje</h2>
+            </section>
+            <section class="selection">
+                <div class="selection__item selection__item--active">
+                    <div class="selection__group__item--show">
+                        <input type="checkbox" class="selection__group__input hidden" name="home" id="home">
+                        <label for="home" class="selection__group__label">Dom</label>
+                    </div>
+                    <div class="selection__group__item--hidden selection__group__item">
+                        <input type="checkbox" class="selection__group__item__input hidden" name="inConstruction" id="inConstruction">
+                        <label for="inConstruction" class="selection__group__item__label">Zaznacz to pole jeśli dom jest w budowie</label>
+                    </div>
+                </div>
+                <div class="selection__item">
+                    <div class="selection__group__item--show">
+                        <input type="checkbox" class="selection__group__input hidden" name="home" id="home">
+                        <label for="home" class="selection__group__label">Firma</label>
+                    </div>
+                    <div class="selection__group__item--hidden selection__group__item">
+                        <input type="checkbox" class="selection__group__item__input hidden" name="inConstruction" id="inConstruction ">
+                        <label for="inConstruction" class="selection__group__item__label">Zaznacz to pole jeśli firma jest w budowie</label>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__next">
+                <a href="#" class="footer__next__link">
+                    Dalej 
+                     <svg>
+                        <use xlink:href="#arrow"></use>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" style="display:none">
+    <symbol id="arrow" viewBox="0 0 16 16">
+        <title>arrow</title>
+        <path d="M0 7H12.17L6.58 1.41L8 0L16 8L8 16L6.59 14.59L12.17 9H0V7Z" fill="white" />
+    </symbol>
+    <symbol id="information" viewBox="0 0 30 30">
+        <title>information</title>
+        <path d="M22.0082 1.70916C19.8548 0.592873 17.4563 0.00630123 15.0196 2.39108e-07C6.726 -0.00144827 0.00148005 6.57853 2.68562e-07 14.6968C-0.000739624 18.5288 1.52736 22.2096 4.25853 24.9548L3.6311 29.3235C3.57635 29.639 3.79314 29.9382 4.11543 29.9918C4.26423 30.0166 4.41701 29.9848 4.54265 29.9029L7.95207 27.6896C15.2813 31.489 24.3694 28.7531 28.2509 21.5788C32.1324 14.4045 29.3374 5.50852 22.0082 1.70916ZM24.8628 24.2128C22.2648 26.7917 18.7197 28.2442 15.0196 28.2458C12.6375 28.249 10.2949 27.6504 8.21851 26.5076C8.03539 26.4041 7.80972 26.4041 7.62659 26.5076L4.95706 28.2053L5.47203 24.839C5.49755 24.6575 5.43392 24.4748 5.30037 24.3465C-0.139321 19.0956 -0.200437 10.5223 5.16386 5.1976C10.5282 -0.127106 19.2866 -0.18693 24.7263 5.06397C30.166 10.3149 30.2271 18.8881 24.8628 24.2128Z" fill="#AAAAAA" />
+        <path d="M16.4995 9.2616C16.5183 9.94889 16.0203 10.5044 15.2122 10.5044C14.498 10.5044 14 9.94889 14 9.2616C14 8.54607 14.5262 8 15.2591 8C16.0203 8 16.4995 8.55548 16.4995 9.2616Z" fill="#AAAAAA" />
+        <path d="M14.2537 22.0001V12.5569L16.2646 12.6228V22.0001H14.2537Z" fill="#AAAAAA" />
+    </symbol>
+   
+    <symbol id="tel" viewBox="0 0 14 14">
+        <title>tel</title>
+        <path d="M12.425 8.75H12.25H9.74167C9.275 8.75 8.80833 8.75 8.45833 9.1C8.28333 9.275 8.16667 9.56667 8.16667 9.91667C6.06667 9.625 4.375 7.99167 4.14167 5.89167C4.49167 5.89167 4.725 5.775 4.95833 5.6C5.25 5.19167 5.25 4.725 5.25 4.25833V4.08333V1.575C5.25 1.10833 5.25 0.641667 4.9 0.291667C4.725 0.116667 4.43333 0 4.08333 0H1.75C0.758333 0 0 0.758333 0 1.75V2.33333V4.08333C0 9.56667 4.43333 14 9.91667 14H11.6667H12.25C13.2417 14 14 13.2417 14 12.25V9.91667C14 9.56667 13.8833 9.275 13.7083 9.1C13.3583 8.75 12.8917 8.75 12.425 8.75ZM12.8333 12.25C12.8333 12.6 12.6 12.8333 12.25 12.8333H11.6667H9.91667C5.075 12.8333 1.16667 8.925 1.16667 4.08333V2.33333V1.75C1.16667 1.4 1.4 1.16667 1.75 1.16667H4.08333C4.08333 1.28333 4.08333 1.45833 4.08333 1.575V1.75V4.25833C4.08333 4.375 4.08333 4.55 4.08333 4.66667H3.5H2.91667V5.25C2.91667 8.45833 5.54167 11.0833 8.75 11.0833H9.33333V10.5V9.91667C9.45 9.91667 9.625 9.91667 9.74167 9.91667H9.91667H12.425C12.5417 9.91667 12.7167 9.91667 12.8333 9.91667V12.25Z" fill="#54B049" />
+    </symbol>
+    <symbol id="square" viewBox="0 0 10 10">
+        <title>square</title>
+        <path d="M8.88889 0L1.11111 0C0.494444 0 0 0.494444 0 1.11111L0 8.88889C0 9.18357 0.117063 9.46619 0.325437 9.67456C0.533811 9.88294 0.816426 10 1.11111 10H8.88889C9.18357 10 9.46619 9.88294 9.67456 9.67456C9.88294 9.46619 10 9.18357 10 8.88889V1.11111C10 0.494444 9.5 0 8.88889 0Z" fill="#979797" />
+    </symbol>
+    <symbol id="triangle" viewBox="0 0 14 11">
+        <title>triangle</title>
+        <path d="M13.1111 0.444445L0.888863 0.444445L6.99997 11" fill="#979797" />
+    </symbol>
+    <symbol id="wheel" viewBox="0 0 12 12">
+        <title>wheel</title>
+        <path d="M6.00001 0.444458C5.27045 0.444458 4.54803 0.588157 3.87399 0.86735C3.19996 1.14654 2.58752 1.55576 2.07164 2.07164C1.02977 3.11351 0.444458 4.52659 0.444458 6.00001C0.444458 7.47344 1.02977 8.88652 2.07164 9.92838C2.58752 10.4443 3.19996 10.8535 3.87399 11.1327C4.54803 11.4119 5.27045 11.5556 6.00001 11.5556C7.47344 11.5556 8.88652 10.9703 9.92838 9.92838C10.9703 8.88652 11.5556 7.47344 11.5556 6.00001C11.5556 5.27045 11.4119 4.54803 11.1327 3.87399C10.8535 3.19996 10.4443 2.58752 9.92838 2.07164C9.4125 1.55576 8.80006 1.14654 8.12603 0.86735C7.452 0.588157 6.72958 0.444458 6.00001 0.444458Z" fill="#979797" />
+    </symbol>
+</svg>
+
+</html>
